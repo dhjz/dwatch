@@ -2,6 +2,7 @@
 #### 开发语言
 - 前端: vue2
 - 后端: go
+- 数据库: sqlite (方便本地运行, 无需额外环境)
 #### 功能介绍
 - 添加网站监控任务, 通过http请求来监控网站状态\
 - 基于cron表达式定时监控
@@ -14,3 +15,5 @@
 - 双击build.bat 可以打包window和linux运行文件, 双击生成的dist/dwatch.exe, 即可运行
 - 打开页面`http://localhost:3457/web/` 访问页面
 - dwatch.exe -p 3457 可以指定端口
+#### 其他说明
+- 目前前端页面用的cdn资源, 如需离线运行可以下载对应的js和css文件, 修改index.html里面的路径即可
