@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日报列表</title>
+  <link rel="stylesheet" href="./css/common.css?v=004">
+</head>
+<body>
+  <div class="wrap">
+    <div class="clearfix">
+      <div class="fitem w50"><label for="">时间：</label><div class="input"><input type="text" class="enter" value="" name="time" id="time"></div></div>
+      <div class="fitem w50"><label for="">姓名：</label><div class="input"><input type="text" class="enter" value="" name="user" id="user"></div></div>
+    </div>
+    <div class="clearfix">
+      <div class="fitem w50"><label for="">内容：</label><div class="input"><input type="text" class="enter" value="" name="cont" id="cont"></div></div>
+      <div class="fitem w50"><label for="">条数：</label><div class="input"><input type="number" class="enter" value="50" name="limit" id="limit"></div></div>
+    </div>
+    <div class="fitem"><button mini onclick="selectAll()">全选</button>  <button mini class="primary" onclick="search()">搜索</button><button mini onclick="today()">今天</button>
+      <button mini onclick="resetSearch()">清空</button><button mini class="primary" onclick="copyReport()">复制</button><button mini class="primary" onclick="window.location.href='./'">新增</button>
+      <button mini onclick="window.location.reload()">刷新</button><button mini onclick="window.location.href='./cont.html'">编写</button></div>
+    <ul id="reports">
+    </ul>
+  </div>
+  <script src="./js/axios.min.js"></script>
+  <script src="./js/clipboard.min.js"></script>
+  <script src="./js/utils.js?v=003"></script>
+  <script src="./js/list.js?v=003"></script>
+  <script src="//cdn.bootcdn.net/ajax/libs/vConsole/3.14.6/vconsole.min.js"></script>
+</body>
+</html>

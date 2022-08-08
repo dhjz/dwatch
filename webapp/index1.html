@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>软件部日报提交</title>
+  <link rel="stylesheet" href="./css/common.css?v=003">
+</head>
+<body>
+  <div class="wrap">
+    <input type="hidden" id="id" name="id">
+    <div class="fitem" id="timewrap" style="display: none;"><label for="">时间：</label><div class="input"><input type="text" value="" name="time" id="time"></div></div>
+    <div class="fitem"><label for="">姓名：</label><div class="input"><input type="text" value="" name="user" id="user"></div></div>
+    <div class="fitem"><label for="">内容：</label><div class="input"><textarea type="text" value="" name="cont" id="cont"></textarea></div></div>
+    <div class="fitem"><div class="input" style="color: #666;">内容不要带序号, 多条内容换行就行</div></div>
+    <div class="fitem"><div class="input"><button class="primary" onclick="submitCont()">提交</button onclick="resetCont"><button>清空</button></div></div>
+  </div>
+  <script src="./js/axios.min.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/index.js?v=003"></script>
+</body>
+</html>
