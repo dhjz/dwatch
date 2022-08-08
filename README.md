@@ -18,3 +18,6 @@
 #### 其他说明
 - 目前前端页面用的cdn资源, 如需离线运行可以下载对应的js和css文件, 修改index.html里面的路径即可
 - 页面效果图见`appimg`目录
+- ![alt 首页图](https://raw.githubusercontent.com/dhjz/dwatch/master/appimg/app.jpg)
+- ![alt 明细图](https://raw.githubusercontent.com/dhjz/dwatch/master/appimg/detail.jpg)
+- ![alt 数据看板图](https://raw.githubusercontent.com/dhjz/dwatch/master/appimg/data.jpg)
