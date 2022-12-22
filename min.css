@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; outline:none; }
+body { font-family: 'Microsoft Yahei'; font-size: 14px; padding: 10px; }
+li, ol { list-style: none; }
+i, em { font-style: normal; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-over { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-break: break-all; }
+.text-over2 { -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; word-break: break-all; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; }
+button {display:inline-block;line-height:1;white-space:nowrap;cursor:pointer;text-align:center;
+  background:#fff;border:1px solid #dcdfe6;color:#333;padding:8px 12px;border-radius:4px}
+button+button, input+button { margin: 0 0 0 10px; }
+button[primary] { color: #fff; background-color: #409eff; border-color: #409eff; }
+button[danger] { color: #fff; background-color: #f56c6c; border-color: #f56c6c; }
+button[success] { color: #fff; background-color: #67c23a; border-color: #67c23a; }
+input, textarea { height: 32px; width: 180px; line-height: 32px; padding: 0 12px;  border-radius: 4px; border: 1px solid #dcdfe6; color: #606266; display: inline-block; }
+textarea { height: auto; width: auto; line-height: 1.5; padding: 6px 12px; }
+label { line-height: 32px; padding: 0 12px; display: inline-block;  vertical-align: top; }
