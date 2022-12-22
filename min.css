@@ -2,7 +2,7 @@
 body { font-family: 'Microsoft Yahei'; font-size: 14px; padding: 10px; }
 li, ol { list-style: none; }
 i, em { font-style: normal; }
-.hide, [hide], .hidden { display: none !important; }
+.hide, [hide], .hidden, [hidden] { display: none !important; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
 .text-left { text-align: left; }
